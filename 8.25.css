@@ -1,0 +1,253 @@
+.background1 {
+  width: 1440px;
+  height: 902px;
+  flex-shrink: 0;
+  background-image: url(./map.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
+  position: relative;
+}
+.section1 {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: flex-start;
+  margin: 0;
+  text-align: center;
+  gap: 10px;
+}
+.firstp {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.secondp {
+  color: rgba(24, 24, 27, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.p {
+  margin: 0;
+  padding: 0;
+}
+.section2 {
+  display: flex;
+  width: 1200px;
+  height: 640px;
+  justify-content: space-between;
+  align-items: center;
+}
+.section3 {
+  display: flex;
+  width: 513px;
+  height: 640px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.siaze {
+  display: flex;
+  height: 112px;
+  width: 513px;
+  padding: 30px 30px 30px 0;
+  align-items: center;
+  align-self: stretch;
+  background-color: #eee9d9;
+}
+.siqzesty {
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizesquareuud {
+  display: flex;
+  padding-left: 30px;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+}
+.iconcont {
+  width: 14px;
+  height: 14px;
+}
+.txtsty {
+  border-radius: 50%;
+  background-color: white;
+  color: #000;
+  font-family: GIP;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.D {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.C {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  gap: 12px;
+}
+
+.square2 {
+  background: rgba(139, 184, 193, 0.8);
+}
+.square3 {
+  background: rgba(170, 216, 215, 0.8);
+}
+.square4 {
+  background: rgba(139, 192, 189, 0.8);
+}
+.square5 {
+  background: rgba(151, 204, 224, 0.8);
+}
+.divdiv {
+  width: 94px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.section4 {
+  height: 640px;
+  width: 647px;
+}
+/* .pin1 {
+  height: 34px;
+  width: 34px;
+  background-image: url(.//MapPin\ 1.png);
+  background-size: cover;
+  position: relative;
+  left: 490px;
+  top: 200px;
+} */
+.circle-image {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 340px;
+  right: 152px;
+  display: none;
+}
+.square1:hover ~ .circle-image {
+  display: block;
+}
+.square1:hover {
+  border: 5px solid white;
+}
+.circle-image2 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 238px;
+  right: 338px;
+  display: none;
+}
+.square2:hover ~ .circle-image2 {
+  display: block;
+}
+.square2:hover {
+  border: 5px solid white;
+}
+.circle-image3 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 360px;
+  right: 490px;
+  display: none;
+}
+.square3:hover ~ .circle-image3 {
+  display: block;
+}
+.square3:hover {
+  border: 5px solid white;
+}
+.circle-image4 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 173px;
+  right: 545px;
+  display: none;
+}
+.square4:hover ~ .circle-image4 {
+  display: block;
+}
+.square4:hover {
+  border: 5px solid white;
+}
+.circle-image5 {
+  width: 245px;
+  height: 245px;
+  position: absolute;
+  top: 225px;
+  right: 365px;
+  display: none;
+}
+.square5:hover ~ .circle-image5 {
+  display: block;
+}
+.square5:hover {
+  border: 5px solid white;
+}
+.background2 {
+  width: 1440px;
+  height: 1739px;
+  flex-shrink: 0;
+  background-image: url("/background3.png");
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 40px;
+  margin: 0;
+}
+.bb2 {
+  width: 1440px;
+  height: 575px;
+  flex-shrink: 0;
+}
+.bb3 {
+  width: 1440px;
+  height: 1120px;
+}
+.cardtt {
+  display: flex;
+  width: 384px;
+  height: 527px;
+  padding: var(--0-px-unit-0, 0);
+  flex-direction: column;
+  align-items: flex-start;
+}
