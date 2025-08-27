@@ -109,6 +109,22 @@ p {
   border-radius: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25),
     0 4px 4px 0 rgba(127, 125, 125, 0.25);
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+.z-10 {
+  z-index: 1;
+}
+.navigation2 > .shadow:hover > .overlay {
+  display: block;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: none;
 }
 .object22 {
   height: 350px;
